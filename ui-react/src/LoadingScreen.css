@@ -1,0 +1,13 @@
+.progressWrapper {
+  padding: 100px;
+  margin: auto;
+  width: 300px;
+  text-align: center;
+}
+
+.progressWrapper span {
+  width: 300px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 5px;
+}

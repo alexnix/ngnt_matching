@@ -1,0 +1,21 @@
+.resultsWrapper {
+  .rowComparable {
+    display: inline-flex;
+    color: white;
+    transform: translate(-50%, -50%);
+    padding: 0px 3px 0px 3px;
+    border-radius: 5%;
+    background-color: green;
+    cursor: pointer
+  }
+  .rowProperty {
+    display: inline-flex;
+    transform: translate(-50%, -50%);
+    padding: 0px 3px 0px 3px;
+    color: white;
+    padding: 0px 3px 0px 3px;
+    border-radius: 5%;
+    background-color: red;
+    cursor: pointer
+  }
+}

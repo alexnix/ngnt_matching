@@ -1,0 +1,48 @@
+.dashboard {
+  .siteWrapper {
+    width: 70%;
+    margin: auto;
+  }
+
+  .pageWrapper {
+    background-color: white;
+    padding: 20px;
+    margin-top: -16px;
+  }
+
+  .uploadArea {
+    border: 2px dashed black;
+    padding: 20px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #efefef;
+  }
+
+  nav ul {
+    padding: 0px;
+    overflow: auto;
+  }
+
+  nav ul li {
+    list-style-type: none;
+    float: left;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #dfdfdf;
+  }
+
+  nav ul li.active {
+    background-color: white;
+  }
+
+  .featureInput {
+    width: 100%;
+    padding: 10px;
+    float: left;
+  }
+
+  .featureInput > div {
+    width: 100%;
+  }
+}
