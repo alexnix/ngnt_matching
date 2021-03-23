@@ -160,9 +160,22 @@ export default function ProperyInput({
           );
 
           setLoading(true);
+          var instances = [
+            {
+              "locality": dataToServer["locality"],
+              "district": dataToServer["district"],
+              "rooms": dataToServer["rooms"],
+              "usableArea": dataToServer["usableArea"],
+              "partitioning": dataToServer["partitioning"],
+              "lat": "lat",
+              "lng": "lng",
+              "constructionYearRange": dataToServer["constructionYearRange"]
+            } 
+          ]
+          console.log(dataToServer)
           const res = await axios.post(
-            `http://localhost:5000/predictOne?type=${type}`,
-            { 0: { ...dataToServer, ...latLng } }
+            `http://54.70.203.199:8080/predict`,
+            { instances}
           );
 
           setData(res.data);

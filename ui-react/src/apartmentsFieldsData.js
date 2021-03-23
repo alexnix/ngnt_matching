@@ -1,5 +1,6 @@
 const keyToName = {
   usableArea: "Suprafata (mp)",
+  district: "Sector",
   constructionYear: "An constructie",
   floor: "Etaj",
   rooms: "Numar Camere",
@@ -17,6 +18,7 @@ const keyToName = {
 
 const nameToKey = {
   "Suprafata (mp)": "usableArea",
+  "Sector": "district",
   "An constructie": "constructionYear",
   Etaj: "floor",
   "Numar Camere": "rooms",
@@ -36,6 +38,11 @@ export default [
   {
     type: "number",
     name: "Suprafata (mp)",
+    value: "",
+  },
+  {
+    type: "number",
+    name: "Sector",
     value: "",
   },
   {
